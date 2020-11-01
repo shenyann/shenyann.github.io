@@ -1,7 +1,7 @@
-name: Brandon Amos
-url: http://bamos.github.io
-destination: ./_site
-twitter: brandondamos
+name: Shen Yan
+url: https://shawnyyan.github.io/
+destination: ./website
+twitter: shawnyyan
 lsi: false
 port: 4000
 markdown: kramdown
