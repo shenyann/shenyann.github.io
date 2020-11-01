@@ -1,9 +1,9 @@
 {
-    "name": "bamos.github.io",
+    "name": "shenyan.github.io",
     "version": "0.0.0",
-    "homepage": "https://github.com/bamos/bamos.github.io",
+    "homepage": "https://github.com/shawnyyan/website",
     "authors": [
-        "Brandon Amos <bamos@cs.cmu.edu>"
+        "Shen Yan <yanshen6@msu.edu>"
     ],
     "license": "Apache",
     "ignore": [
