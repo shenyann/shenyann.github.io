@@ -144,7 +144,7 @@
               <a href="https://github.com/taoyang1122/MutualNet">code</a> /
               <a href="data/yang2020mutual.bib">bibtex</a>
               <p></p>
-              <p>The proposed mutual learning method for input resolution and network width significantly improves the accuracy-efficiency tradeoffs over <a href="https://arxiv.org/abs/1812.08928">Slimmable Networks</a>.</p>
+              <p>The proposed mutual learning method for input resolution and network width significantly improves the accuracy-efficiency tradeoffs over <a href="https://arxiv.org/abs/1812.08928">slimmable networks</a>.</p>
             </td>
           </tr>
 
@@ -213,6 +213,40 @@
             </td>
           </tr>
 
+          <tr onmouseout="dff_stop()" onmouseover="dff_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dff_image'>
+                  <img src='images/dff_resize.png' width="160"></div>
+                <img src='images/ce_resize.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function dff_start() {
+                  document.getElementById('dff_image').style.opacity = "1";
+                }
+
+                function dff_stop() {
+                  document.getElementById('dff_image').style.opacity = "0";
+                }
+                dff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://www.bmva.org/bmvc/2017/papers/paper165/paper165.pdf">
+                <papertitle>Deep Fisher Faces</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=Y9zbHswAAAAJ&hl=en">Harald Hanselmann</a>,
+              <strong>Shen Yan</strong>,
+              <a href="https://scholar.google.de/citations?user=6C8rf-0AAAAJ&hl=de">Hermann Ney</a>
+              <br>
+              <em>BMVC</em>, 2017
+              <br>
+              <a href="data/hanselmann2017dff.bib">bibtex</a>
+              <p></p>
+              <p>In this work we further extend the center (intra-class) loss with an inter-class loss reminiscent of the popular early face recognition approach Fisherfaces.</p>
+            </td>
+          </tr>
 
 
 
