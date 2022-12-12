@@ -28,20 +28,17 @@
                   <name> {{ site.name }} </name>
               </h1>
               <p align="center">
-                  <email> yanshen6 at msu dot edu </email>
+                  <email> shenyan at google dot com </email>
               </p>
+              <p>
+I am a research scientist at <a href="https://research.google/teams/perception/">Google Research, Perception</a>, where I work on video-text modeling and its applications.
 
-              <p>
-              My name is Shen Yan (严珅). I am a final year PhD at the <a href="https://cse.msu.edu/">Computer Science Department</a> at <a href="https://msu.edu/">Michigan State Univiersity</a>, where I work on representation learning, AutoML and their applications. I am advised by <a href="https://www.egr.msu.edu/~mizhang/">Mi Zhang</a>.
-              </p>
-              <p>
-                I got my M.S. in Computer Engineering from <a href="https://www.rwth-aachen.de/">RWTH Aachen University</a>, where I worked with  <a href="https://scholar.google.de/citations?user=6C8rf-0AAAAJ&hl=de">Hermann Ney</a> on face recognition and <a href="https://scholar.google.com/citations?user=NCdYnCAAAAAJ&hl=en">Jens-Rainer Ohm</a> on image retrieval. I have a B.S. in Telecommunications engineering from <a href="https://en.xidian.edu.cn/">Xidian University</a>.
+I completed my PhD at the Computer Science Department at Michigan State University. Previously, I received my M.Sc in Computer Engineering from RWTH Aachen University and my B.Eng in Telecommunications Engineering from Xidian University. During my PhD, I also worked at Bosch Research, Bytedance AML, Abacus.AI, Argo AI, and Google Research (Perception and Brain).
               </p>
               <p style="text-align:center">
-              <a href="{{ site.user.github | prepend: 'https://github.com/' }}">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=-shYRd8AAAAJ&hl=en">Google Scholar</a> /
+                <a href="{{ site.user.linkedin | prepend: 'https://www.linkedin.com/in/' }}">LinkedIn</a> /
                 <a href="https://twitter.com/shenyyann">Twitter</a> /
-              <a href="{{ site.user.linkedin | prepend: 'https://www.linkedin.com/in/' }}">LinkedIn</a> /
                 <a href="data/shenyan_resume.pdf">CV</a>
               </p>
             </td>
@@ -54,15 +51,63 @@
           <tr>
             <td>
               <h2>Research</h2>
-                <p>
-                  <!---My general interests lie in machine learning and computer vision. Currently, I focus on representation learning and architecture search. This fits well with a nascent and fast-evolving research field referred to as neural architecture search. Representative papers are <span class="highlight">highlighted</span>. --->
-                  My general interests lie in machine learning and computer vision. Currently, I focus on representation learning and architecture search, mostly in the context of visual recognition. Representative papers are <span class="highlight">highlighted</span>.
-                </p>
               </td>
             </tr>
           </table>
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"></tbody>
+
+            <tr bgcolor="#ffffd0">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src='images/vcoca_img.png' width="160">
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2212.04979">
+                  <papertitle>Video-Text Modeling with Zero-Shot Transfer from Contrastive Captioners</papertitle>
+                </a>
+                <br>
+                <strong>Shen Yan</strong>*,
+                <a href="https://www.linkedin.com/in/taozhu99/">Tao Zhu*</a>,
+                <a href="https://scholar.google.com/citations?user=GgD-B68AAAAJ&hl=en">Zirui Wang</a>,
+                <a href="https://scholar.google.com/citations?user=Q82vvqcAAAAJ&hl=en">Yuan Cao</a>,
+                <a href="https://scholar.google.com/citations?user=r3A90uAAAAAJ&hl=en">Mi Zhang</a>,
+                <a href="https://scholar.google.com/citations?user=QkZ8ZHEAAAAJ&hl=en">Soham Ghosh</a>,
+                <a href="https://scholar.google.com/citations?user=55FnA9wAAAAJ&hl=en">Yonghui Wu</a>,
+                <a href="https://scholar.google.com/citations?user=-CLCMk4AAAAJ&hl=en">Jiahui Yu</a>
+                <br>
+                <em>arXiv</em>, 2022
+                <br>
+                <a href="https://arxiv.org/abs/2212.04979">arXiv</a> /
+                <a href="https://paperswithcode.com/paper/video-text-modeling-with-zero-shot-transfer">leaderboard</a> /
+                <a href="data/yan2022videococa.bib">bibtex</a>
+                <p></p>
+                <p>VideoCoCa maximally reuses a pretrained image-text CoCa model and minimizes additional training overhead, achieving state-of-the-art results on zero-shot video-text tasks.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src='images/output-softcrop.png' width="160">
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2211.04625">
+                  <papertitle>Soft Augmentation for Image Classification</papertitle>
+                </a>
+                <br>
+                <a href="https://scholar.google.com/citations?user=nVWQwHkAAAAJ&hl=en">Yang Liu</a>,
+                <strong>Shen Yan</strong>,
+                <a href="https://scholar.google.com/citations?user=tT2TC-UAAAAJ&hl=en">Laura Leal-Taixé</a>,
+                <a href="https://scholar.google.com/citations?user=vjZrDKQAAAAJ&hl=en">James Hays</a>,
+                <a href="https://scholar.google.com/citations?user=9B8PoXUAAAAJ&hl=en">Deva Ramanan</a>
+                <br>
+              	<em>arXiv</em>, 2022
+                <br>
+                <a href="https://arxiv.org/abs/2211.04625">arXiv</a> /
+                <a href= data/liu2022soft.bib">bibtex</a> /
+                <p></p>
+                <p>Soft augmentations produce better calibrated models on occluded examples.</p>
+              </td>
+            </tr>
 
             <tr bgcolor="#ffffd0">
               <td style="padding:20px;width:25%;vertical-align:middle">
@@ -113,7 +158,7 @@
                 <a href="data/zheng2022deep.bib">bibtex</a> /
                 <a href="data/2022_DeepAA_Slides.pdf">slides</a>
                 <p></p>
-                <p>Build deep data augmentation policies progressively based on regularized gradient matching.</p>
+                <p>We present a method for building deep data augmentation policies progressively based on regularized gradient matching.</p>
               </td>
             </tr>
 
@@ -162,9 +207,8 @@
               <a href="https://arxiv.org/abs/2102.07108">arXiv</a> /
               <a href="https://github.com/MSU-MLSys-Lab/CATE">code</a> /
               <a href="data/yan2021cate.bib">bibtex</a> /
-              <a href="data/yan2021_cate_poster.pdf">poster</a>
               <p></p>
-              <p>Pre-training computation-aware architecture embeddings help architecture search too.</p>
+              <p>Pre-training computation-aware architecture embeddings can also help with architecture search.</p>
             </td>
           </tr>
 
@@ -205,7 +249,7 @@
               <a href="data/yan2020arch.bib">bibtex</a> /
               <a href="data/yan2020arch_poster.pdf">poster</a>
               <p></p>
-              <p>Pre-training structure-aware architecture embeddings help architecture search.</p>
+              <p>Pre-training structure-aware architecture embeddings can help with architecture search.</p>
             </td>
           </tr>
 
@@ -246,7 +290,7 @@
               <a href="https://github.com/taoyang1122/MutualNet">code</a> /
               <a href="data/yang2020mutual.bib">bibtex</a>
               <p></p>
-              <p>Mutual learning with input resolution and network width improves the accuracy-efficiency tradeoffs.</p>
+              <p>Mutual learning with input resolution and network width can improve the accuracy-efficiency tradeoffs..</p>
             </td>
           </tr>
 
@@ -271,7 +315,7 @@
               <a href="https://github.com/facebookresearch/DomainBed">code</a> /
               <a href="data/yan2020mix.bib">bibtex</a>
               <p></p>
-              <p>MixMatch helps unsupervised domain adaptation too.</p>
+              <p>Mixup can also help with unsupervised domain adaptation.</p>
             </td>
           </tr>
 
@@ -292,12 +336,12 @@
               Hui Xu,
               <a href="https://www.egr.msu.edu/~mizhang/">Mi Zhang</a>
               <br>
-              <em>ICCV Neural Architects Workshop</em>, 2019 &nbsp <font color="red"><strong>(Best Paper Nomination)</strong></font>
+              <em>ICCV Neural Architects Workshop</em>, 2019 &nbsp (Best Paper Nomination)
               <br>
               <a href="https://arxiv.org/abs/1909.00122">arXiv</a> /
               <a href="data/yan2019hm.bib">bibtex</a>
               <p></p>
-              <p>Highlight the importance of topology learning in differentialable NAS.</p>
+              <p>We highlight the importance of topology learning in differentiable NAS.</p>
             </td>
           </tr>
 
@@ -332,122 +376,11 @@
               <br>
               <a href="data/hanselmann2017dff.bib">bibtex</a>
               <p></p>
-              <p>Extend the center loss with an inter-class loss reminiscent of the popular early face recognition approach Fisherfaces.</p>
+              <p>We extend the center loss with an inter-class loss reminiscent of the popular early face recognition approach Fisherfaces.</p>
             </td>
           </tr>
             </tbody></table>
 
-
-
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <h2>Experience</h2>
-            </td>
-
-          </tr>
-          </table>
-          <table width="100%" align="center" border="0" cellpadding="20"></tbody>
-
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/G.png' width="120">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                Research Intern, Summer 2022
-                <br> <a href="https://research.google/teams/brain/">Google Research, Brain Team</a>, Mountain View, USA
-                <br> Host: <a href="https://scholar.google.com/citations?user=-CLCMk4AAAAJ&hl=en">Jiahui Yu</a>,
-                <a href="https://www.linkedin.com/in/taozhu99/">Tao Zhu</a>,
-                <a href="https://scholar.google.com/citations?user=Q82vvqcAAAAJ&hl=en">Yuan Cao</a>
-                <p></p>
-                <p>Research on large video Transformers.</p>
-              </td>
-            </tr>
-          </tr>
-
-          </table>
-          <table width="100%" align="center" border="0" cellpadding="20"></tbody>
-
-          </tr>
-          </table>
-          <table width="100%" align="center" border="0" cellpadding="20"></tbody>
-
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/G.png' width="120">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                Research Intern, Student Researcher, Summer 2021, Fall 2021
-                <br> <a href="https://research.google/teams/perception/">Google Research, Perception Team</a>, Mountain View, USA
-                <br> Host: <a href="https://scholar.google.com/citations?user=vM1SktEAAAAJ&hl=en">Xuehan Xiong</a>,
-                <a href="https://research.google/people/106160/">Zhichao Lu</a>,
-                <a href="https://scholar.google.com/citations?user=vQa7heEAAAAJ&hl=en">Chen Sun</a>,
-                <a href="https://scholar.google.com/citations?user=IvqCXP4AAAAJ&hl=en">Cordelia Schmid</a>
-                <p></p>
-                <p>Research on large video Transformers.</p>
-              </td>
-            </tr>
-          </tr>
-
-          </table>
-          <table width="100%" align="center" border="0" cellpadding="20"></tbody>
-
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/abacus.png' width="120">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                Research Intern, Spring 2021
-                <br> <a href="https://abacus.ai/">Abacus.AI</a>, San Francisco, USA
-                <br> Host: <a href="https://scholar.google.com/citations?user=LS6HY-gAAAAJ&hl=en">Colin White</a>
-                <p></p>
-                <p>Research on multi-fidelity AutoML.</p>
-              </td>
-            </tr>
-
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/tt.jpg' width="120">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                Applied Machine Learning Intern, Summer 2020
-                <br> <a href="https://www.bytedance.com/en/">ByteDance Inc.</a>, Mountain View, USA
-                <br> Host: <a href="https://www.linkedin.com/in/velicue/">Ming Chen</a>,
-                <a href="https://scholar.google.com/citations?user=Y5uwWeAAAAAJ&hl=en">Youlong Cheng</a>
-                <p></p>
-                <p>Neural architecture search for large scale advertising models.</p>
-              </td>
-            </tr>
-
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/bcai.png' width="120">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                Research Intern, Summer 2019
-                <br> <a href="https://www.bosch.us/our-company/innovation/">Bosch Research</a>, Sunnyvale, USA
-                <br> Host: <a href="https://scholar.google.com/citations?user=9snl7bcAAAAJ&hl=en">Huan Song</a>,
-                <a href="https://sites.google.com/site/liurenshomepage/">Liu Ren</a>
-                <p></p>
-                <p>Unsupervised domain adaptation with image and time-series data.</p>
-              </td>
-            </tr>
-
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src='images/ebay_logo.png' width="120">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                Research Intern, Summer 2017
-                <br> <a href="https://tech.ebayinc.com/research/">eBay Research</a>, Aachen, Germany
-                <br> Host: <a href="https://scholar.google.com/citations?user=EQhruhUAAAAJ&hl=en">Shahram Khadivi</a>,
-                <a href="https://scholar.google.com/citations?user=hKCOyOkAAAAJ&hl=en">Evgeny Matusov</a>
-                <p></p>
-                <p>Adapt neural machine translation to e-commerce domains.</p>
-              </td>
-            </tr>
-
-          </table>
 
 
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
@@ -473,10 +406,10 @@
               <a href="https://icml.cc/Conferences/2020/Reviewers">Reviewer, ICML 2020, 2021, 2022</a>
               <br>
               <br>
-              <a href="https://iclr.cc/Conferences/2021/Reviewers">Reviewer, ICLR 2021, 2022</a>
+              <a href="https://iclr.cc/Conferences/2021/Reviewers">Reviewer, ICLR 2021, 2022, 2023</a>
               <br>
               <br>
-              <a href="http://cvpr2021.thecvf.com/node/181">Reviewer, CVPR 2021, 2022</a>
+              <a href="http://cvpr2021.thecvf.com/node/181">Reviewer, CVPR 2021, 2022, 2023</a>
               <br>
               <br>
               <a href="http://iccv2021.thecvf.com/node/39">Reviewer, ICCV 2021</a>
@@ -497,28 +430,6 @@
             </td>
           </tr>
           </table>
-
-
-            <br>
-            <br>
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <h2>Talks</h2>
-              </td>
-            </tr>
-            </table>
-            <table width="100%" align="center" border="0" cellpadding="20"></tbody>
-              <tr>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="data/Dec3_UT_Austin_shenyan.pptx.pdf"> New Insights in Neural Architecture Search, UT Austin, Dec 2021 </a>
-                  <br>
-                </td>
-              </tr>
-
-          </table>
-
-
 
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
